@@ -2,7 +2,7 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-@app.get("/")
+@app.get("/") # Nov is stupid
 def read_root():
     return {"Hello": "World"}
 
